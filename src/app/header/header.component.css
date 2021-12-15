@@ -1,0 +1,60 @@
+.bg-color{
+    background-color: #04b032;
+    height: 35px;
+}
+.brand-info{
+
+    font-size: 12px;
+    color: #fff;
+    margin-left: 450px;
+}
+.brand-info :hover{
+    color: #fff !important;
+}
+.infoPluvial{
+    float: right;
+    margin-right: 90px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 175px;
+}
+.nav-item 
+    .nav-link :active{
+        color: red;
+    }
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgb(22, 22, 22); */
+    font-size: 13px;
+    padding-left: 19px;
+}
+
+.sign-info{
+    margin-left: 100px;
+    width: 90px;
+    height: 40px;
+    color: white !important;
+    /* padding: 8px; */
+    font-size: 12px;
+}
+.sigin{
+    margin-right: 11px;
+}
+
+
+.btn-success{
+    margin-top: 1px;
+    background-color: #04b032 !important;
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    bg-color{
+        background-color: #04b032;
+        height: 40px;
+    }
+}
