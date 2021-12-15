@@ -45,7 +45,7 @@ p{
 
 }
 .program-bar p{
-    font-size: 11px;
+    font-size: 14px;
 }
 .yellow-box{
     background-color: #f2d307;
@@ -144,7 +144,7 @@ p{
     /* background-clip: border-box; */
     border: none;
     border-radius: 0.25rem;
-    
+    height: 440px !important;
     
 }
 .black-box{
@@ -222,6 +222,10 @@ p{
         border-bottom-right-radius: 15px;
         word-wrap: break-word;
     }
+    .program-bar .pinfo{
+        font-size: 16px;
+    }
+
     .program-bar {
         height: 260px;
         width: 100%;
