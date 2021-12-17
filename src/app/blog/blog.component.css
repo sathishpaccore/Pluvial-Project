@@ -1,0 +1,43 @@
+.blog-hr-line{
+    border-bottom: 2px solid black;
+}
+.sub-text{
+    color: #8c8c8c;
+
+}
+.blog-side-tilte{
+    font-size: 15px;    
+}
+
+.content-bar{
+    background: #345035;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-info{
+    margin-top: 40px;
+}
+
+.subscribe-btn {
+    height: 50px;
+}
+
+.btn-primary{
+    background-color: #04b032 !important;
+    color: white;
+    border: none !important;
+}
+.search-btn{
+    height: 58px;
+}
+.input-serach{
+    border: 1px solid black !important;
+    outline: none !important;
+}
+
+
+.img-post{
+    margin-top: 30px;
+}

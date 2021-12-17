@@ -19,12 +19,14 @@
     color: rgba(0, 0, 0, 0.9);
     margin-left: 175px;
 }
-.nav-item 
-    .nav-link :active{
-        color: red;
-    }
 
+ .nav-item > a:hover {
+    color: green!important;
+  }
 
+.nav-item > li a:active {
+    color: green!important;
+}
 
 .navbar-light .navbar-nav .nav-link {
     /* color: rgb(22, 22, 22); */

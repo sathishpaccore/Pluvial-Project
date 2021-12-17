@@ -1,0 +1,72 @@
+.support-background {
+    background-color: #04b032;
+    height: 43vh;
+    width: 100%;
+}
+.tips-tricks{
+text-align: center;
+padding: 19px;
+font-size: 28px;
+font-family: blod;
+color: white;
+}
+
+.input-group > .form-control, .input-group > .form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    height: 62px;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    /* margin-bottom: -1.5rem; */
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border-radius: 0.25rem; */
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    border: none;
+}
+
+.svg-info{
+    height: 80px;
+    width: 50px;
+    margin: 22px;
+}
+
+img, svg {
+    vertical-align: middle;
+    color: #8c8c8c;
+}
+
+.card-title{
+    color: #04b032;;
+}
+.card-text{
+    color: #8c8c8c;
+
+}
+.person-img {
+    border-radius: 50%;
+    height: 32px;
+}
+.person-sub-text{
+    margin-left: -24px !important;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+.support-card-info{
+    margin-left: -29px;
+}

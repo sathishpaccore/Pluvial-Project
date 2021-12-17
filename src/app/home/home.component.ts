@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
 
   getContact(){
     this.router.navigateByUrl('/contact');    
+    window.scrollTo(0, 0)
   }
 
   ngOnInit(): void {

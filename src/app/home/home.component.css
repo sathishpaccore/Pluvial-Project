@@ -125,7 +125,7 @@ p{
     background: #fff;
     border-bottom-right-radius: 1.25rem !important;
     border-bottom-left-radius: 1.25rem !important;
-    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 16px 16px 0 rgb(10 10 10 / 14%);
 }
 
 .rounded-top {
@@ -144,7 +144,7 @@ p{
     /* background-clip: border-box; */
     border: none;
     border-radius: 0.25rem;
-    height: 440px !important;
+    height: 343px !important;
     
 }
 .black-box{
@@ -193,7 +193,7 @@ p{
 
 .card-info{
    padding-left: 0 !important;
-   padding-right: 15px !important;
+   /* padding-right: 15px !important; */
 }
 
 @media (min-width: 768px){
@@ -251,4 +251,19 @@ right: 0px;
         border-bottom-right-radius: 15px;
         word-wrap: break-word;
     }
+}
+
+
+.background-img {
+    background: #e3e30f;
+    height: 370px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.greenImg {
+    vertical-align: middle;
+    height: 37vh;
+    padding-left: 202px;
+    margin-top: 177px;
 }
