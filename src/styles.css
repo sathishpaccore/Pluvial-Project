@@ -4,3 +4,22 @@ body{
     background-color: whitesmoke;
     
 }
+.btn-success{
+    margin-top: 1px;
+    background-color: #04b032 !important;
+    border: none;
+}
+
+.btn-outline-success{
+    color: #04b032 !important;
+    border-color: #04b032 !important;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #04b032 !important;
+    border-color: #04b032 !important;
+}
+.text-color{
+   color: #04b032 !important;
+}

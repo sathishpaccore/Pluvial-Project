@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { SupportComponent } from './support/support.component';
 import { BlogComponent } from './blog/blog.component';
+import { DevicesComponent } from './devices/devices.component';
+import { PluvialAppComponent } from './pluvial-app/pluvial-app.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BlogComponent } from './blog/blog.component';
     HomeComponent,
     TeamComponent,
     SupportComponent,
-    BlogComponent
+    BlogComponent,
+    DevicesComponent,
+    PluvialAppComponent
   ],
   imports: [
     BrowserModule,

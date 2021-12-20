@@ -1,3 +1,5 @@
+import { PluvialAppComponent } from './pluvial-app/pluvial-app.component';
+import { DevicesComponent } from './devices/devices.component';
 import { BlogComponent } from './blog/blog.component';
 import { SupportComponent } from './support/support.component';
 import { TeamComponent } from './team/team.component';
@@ -12,7 +14,9 @@ const routes: Routes = [
   {path:'contact', component:ContactComponent},
   {path:'team', component:TeamComponent},
   {path:'support', component:SupportComponent},
-  {path:'blog', component:BlogComponent}
+  {path:'blog', component:BlogComponent},
+  {path:'devices', component:DevicesComponent},
+  {path:'pluvial-app',component:PluvialAppComponent}
 ];
 
 @NgModule({
