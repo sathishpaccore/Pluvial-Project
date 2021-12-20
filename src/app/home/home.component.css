@@ -257,3 +257,14 @@ right: 0px;
         width: 91%;
     
 }
+
+.inner{
+    overflow: hidden;
+    cursor: pointer;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
