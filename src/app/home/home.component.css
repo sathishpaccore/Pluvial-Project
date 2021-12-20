@@ -254,16 +254,10 @@ right: 0px;
 }
 
 
-.background-img {
-    background: #e3e30f;
-    height: 370px;
-    width: 80%;
-    border-radius: 10px;
-}
 
-.greenImg {
-    vertical-align: middle;
-    height: 37vh;
-    padding-left: 202px;
-    margin-top: 177px;
+
+.yellow-greenImg {
+        height: 69vh;
+        width: 91%;
+    
 }
