@@ -11,6 +11,7 @@
   color: #fff !important;
 }
 .infoPluvial {
+  cursor: pointer;
   float: right;
   margin-right: 90px;
 }
@@ -24,7 +25,7 @@
 }
 
 .nav-item > li a:active {
-  color: green !important;
+  color: green;
 }
 
 .navbar-light .navbar-nav .nav-link {

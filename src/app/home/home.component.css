@@ -170,7 +170,19 @@ p {
   background-attachment: fixed;
   background-position: center;
 }
-.row-info {
+.img-card {
+  margin-top: 5% !important;
+}
+
+.imag-card-info {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  /* padding-right: calc(var(--bs-gutter-x) * 0.5); */
+  /* padding-left: calc(var(--bs-gutter-x) * 0.5); */
+  margin-top: var(--bs-gutter-y);
+}
+.black-card-info {
   top: 50px;
   --bs-gutter-y: 0;
   display: flex;
@@ -257,6 +269,9 @@ p {
   height: 69vh;
   width: 91%;
 }
+.banner-info {
+  margin-top: 10%;
+}
 
 .inner {
   overflow: hidden;
@@ -267,4 +282,74 @@ p {
 }
 .inner:hover img {
   transform: scale(1.5);
+}
+
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  color: black;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* fade css end */
+
+.footer-img {
+  margin-left: -24px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .yellow-greenImg {
+    height: 30vh;
+    width: 91%;
+  }
 }
