@@ -28,7 +28,6 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  /* color: rgb(22, 22, 22); */
   font-size: 13px;
   padding-left: 19px;
 }
@@ -61,3 +60,10 @@
     height: 40px;
   }
 }
+
+/* .navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
