@@ -353,3 +353,10 @@ p {
     width: 91%;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .yellow-greenImg {
+    height: 72vh;
+    width: 91%;
+  }
+}
