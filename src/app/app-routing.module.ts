@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'support', component:SupportComponent},
   {path:'blog', component:BlogComponent},
   {path:'devices', component:DevicesComponent},
-  {path:'pluvial-app',component:PluvialAppComponent}
+  {path:'platform',component:PluvialAppComponent}
 ];
 
 @NgModule({
