@@ -1,41 +1,46 @@
-.body-color{
-    background-color: whitesmoke;
+.body-color {
+  background-color: whitesmoke;
 }
-.btn-success{
-    margin-top: 1px;
-    background-color: #04b032 !important;
-    border: none;
+.btn-success {
+  margin-top: 1px;
+  background-color: #04b032 !important;
+  border: none;
 }
-.informatin_lnfo ul{
-    padding: 0;
-    margin-top: 23px;
+.informatin_lnfo ul {
+  padding: 0;
+  margin-top: 23px;
 }
-.informatin_lnfo ul li{
-    list-style: none ;
-    font-size: 11px;
-    margin-top: 6px;
-
-    }
-
-.informatin_lnfo ul li a{
-    text-decoration: none;
-    color: rgb(131, 128, 128);
+.informatin_lnfo ul li {
+  list-style: none;
+  font-size: 11px;
+  margin-top: 6px;
 }
 
-@media (min-width: 768px){
-    .footer-link  {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-    }
+.informatin_lnfo ul li a {
+  text-decoration: none;
+  color: rgb(131, 128, 128);
+}
 
-    .copy-right{
-        font-size: 12px;
-            text-align: center !important;
-            color: black;
-        }
-    
-        .copy-right-nav {
-            justify-content: center;
-        }
-        
+@media (min-width: 768px) {
+  .footer-link {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+
+.copy-right {
+  font-size: 12px;
+  text-align: center !important;
+  color: black;
+}
+
+.copy-right-nav {
+  justify-content: center;
+}
+.designed {
+  color: black;
+  text-decoration: none !important;
+}
+.spaceb-w {
+  margin-left: 59% !important;
+}
